@@ -1,1 +1,120 @@
+body {
+  font-size: 16px;
+  font-family: "Pangolin", sans-serif ;
+}
+#header-nav{
+  background-color: gray;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+  height: 100px;
+  color: black;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top:0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: gray;
+  border: 1px solid black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 30px;
+    height: 60px;
+  }
+  #collapsable-nav{
+    margin-top: 25px;
+  }
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  
+ h2{
+    margin-top: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+  }
+}
+
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#Chicken-tile:hover, #Beef-tile:hover, #Sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#Chicken-tile { 
+  background-position: center;
+}
+#Beef-tile {  
+  background-position: center;
+}
+#Chicken-tile span, #Beef-tile span, #Sushi-tile span {
+  position: absolute;
+  top: 0;
+  right: 35%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color:grey;
+  color: black;
+  opacity: .8;
+}
+.row{
+  margin:15px;
+}
+#Chicken-tile {
+  background-color: grey;
+  color: black;
+}
+#Beef-tile{
+  background-color: grey;
+  color: black;
+}
+#Sushi-tile{
+   background-color: grey;
+  color: black;
+}
+p{
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
